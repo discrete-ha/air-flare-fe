@@ -1,0 +1,24 @@
+{
+  "name": "air-flare-fe",
+  "version": "1.0.0",
+  "description": "airflare frontend",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ejs": "^2.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discrete-ha/air-flare-fe.git"
+  },
+  "author": "John Ha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/discrete-ha/air-flare-fe/issues"
+  },
+  "homepage": "https://github.com/discrete-ha/air-flare-fe#readme"
+}
