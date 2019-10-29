@@ -14,6 +14,7 @@ app.set('view engine', 'html');
 app.use(bodyParser.urlencoded({
   extended: true
 }));
+
 app.use(bodyParser.json());
 app.get('/', function(req, res){
     res.render('index.html');
@@ -22,6 +23,13 @@ app.get('/', function(req, res){
 app.get('/privacy_policy', function(req, res){
     res.render('privacy_policy.html');
 });
+
+app.get('/globe', function(req, res){
+    res.render('globe.html');
+});
+
+app.use(express.static(__dirname + '/css' ));
+
 
 app.listen(port, host, function() {
   console.log("Server started.......");
