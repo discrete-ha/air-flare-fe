@@ -4,12 +4,14 @@
   "description": "airflare frontend",
   "main": "app.js",
   "dependencies": {
+    "ejs": "^2.6.2",
     "express": "^4.17.1",
-    "ejs": "^2.6.2"
+    "nodemon": "^1.19.3"
   },
   "devDependencies": {},
   "scripts": {
     "start": "node app.js",
+    "watch": "./node_modules/nodemon/bin/nodemon.js app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
