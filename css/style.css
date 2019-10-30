@@ -543,7 +543,8 @@ p {
 
 .welcome-mobile-device {
     position: absolute;
-    bottom: 23%;
+    /*bottom: 23%;*/
+    top:10%;
     right: 50px;
     z-index: 9;
     width: 38%;
