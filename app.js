@@ -24,8 +24,15 @@ app.get('/privacy_policy', function(req, res){
     res.render('privacy_policy.html');
 });
 
+// app.use('/static', express.static('public'));
 app.get('/globe', function(req, res){
     res.render('globe.html');
+});
+
+
+
+app.get('/globe_information', function(req, res){
+    res.render('globe_download.html');
 });
 
 app.use(express.static(__dirname + '/css' ));
