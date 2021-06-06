@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json());
 app.get('/', function(req, res){
-    res.render('index.html');
+    res.render('globe.html');
 });
 
 app.get('/privacy_policy', function(req, res){
