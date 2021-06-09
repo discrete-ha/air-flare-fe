@@ -1,10 +1,12 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var cors = require('cors');
 
 var app = express();
 const host = '0.0.0.0';
 const port = process.env.PORT || 5000;
 
+app.use(cors());
 app.set('port', port);
 app.use(express.static(__dirname + '/'));
 app.set('views', __dirname + '/views');
